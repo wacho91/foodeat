@@ -1,11 +1,14 @@
+import Navbar from "./Component/Navbar/Navbar"
 
 
 function App() {
   
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+        <div className="min-h-screen bg-white/50 backdrop-blur-3xl">
+            <Navbar />
+        </div>
+    </div>
   )
 }
 
