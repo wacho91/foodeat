@@ -1,6 +1,7 @@
 import Hero from "./Component/Hero/Hero"
 import Navbar from "./Component/Navbar/Navbar"
 import TopList from "./Component/TopList/TopList";
+import Banner from "./Component/Banner/Banner";
 
 import BgImage from "./assets/2.png";
 
@@ -19,6 +20,7 @@ function App() {
             <Navbar />
             <Hero />
             <TopList />
+            <Banner />
         </div>
     </div>
   )
