@@ -4,6 +4,7 @@ import TopList from "./Component/TopList/TopList";
 import Banner from "./Component/Banner/Banner";
 
 import BgImage from "./assets/2.png";
+import OurServices from "./Component/OurServices/OurServices";
 
 const bgStyle = {
   backgroundImage: `url(${BgImage})`,
@@ -21,6 +22,7 @@ function App() {
             <Hero />
             <TopList />
             <Banner />
+            <OurServices />
         </div>
     </div>
   )
